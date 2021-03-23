@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewModelStudy_02.MyActivity">
+
+
+    <fragment
+        android:id="@+id/fragment_chatting"
+        android:layout_weight="1"
+        android:name="com.example.androidstudy.ViewModelStudy_02.ChattingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <fragment
+        android:id="@+id/fragment_monitoring"
+        android:layout_weight="1"
+        android:name="com.example.androidstudy.ViewModelStudy_02.MonitoringFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+</LinearLayout>
