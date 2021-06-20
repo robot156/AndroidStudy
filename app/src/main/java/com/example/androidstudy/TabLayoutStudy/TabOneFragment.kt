@@ -13,11 +13,9 @@ import com.example.androidstudy.databinding.FragmentTabOneBinding
 
 class TabOneFragment : Fragment() {
 
-
     companion object {
         var friendCount : Int = 0
     }
-
 
     private var _binding: FragmentTabOneBinding? = null
     private val binding: FragmentTabOneBinding get() = _binding!!

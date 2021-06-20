@@ -9,16 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidStudy">
-        <activity android:name=".DiffUtil.PersonActivity">
+
+        <activity android:name=".dataBindingSample.DataBindingStudyActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".TabLayoutStudy.TabLayoutActivity"/>
+
+        <activity android:name=".swipeList.SwipeActivity"/>
+        <activity android:name=".DiffUtil.PersonActivity"/>
+        <activity android:name=".TabLayoutStudy.TabLayoutActivity" />
         <activity android:name=".ViewModelStudy_03.NavigationActivity" />
         <activity android:name=".ViewModelStudy_02.MyActivity" />
         <activity android:name=".ViewModelStudy.NumberActivity" />
